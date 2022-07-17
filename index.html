@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    crossorigin="anonymous">
+
+  <!-- 
+        <link 
+        rel="stylesheet"
+        href="design.css"> -->
+</head>
+
+
+
+
+<body style="background: url(bg66.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center"
+        style="background: url(biotech.jpeg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+        <h1 style="color: navajowhite;">Belly Button Biodiversity Dashboard</h1>
+        <h3 style="color: navajowhite;">Use the interactive charts below to explore the dataset</h3>
+      </div>
+    </div>
+
+    <div>
+
+      <p style="color: black; font-size: larger;">This interactive website is designed to let research participants and researchers access data and results of
+        the Bacteria to Beef study conducted by Roza Doe of the XY Labortories.</p>
+      <p style="color: black; font-size: larger;">Please chose your assigned ID No. from the dropdown list below to see the results. </p>
+      <br>
+      <br>
+     
+
+
+
+
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <h5>Test Subject ID No.:</h5>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="col-md-auto; panel-body"></div>
+        </div>
+        <p style="text-align: center;">Basic information on research participant</p>
+
+      </div>
+      <div>
+
+      </div>
+      <!-- Demo Table       -->
+      <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-primary">
+          <div id="barPlot">
+         
+        </div>
+        
+        </div>
+        <p style="text-align: center;">Top Ten Bacterial Species of the research participant</p>
+      </div>
+   
+
+
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel panel-primary">
+        
+          <div id="gauge">
+
+          </div>
+        </div>
+        
+        </div>
+        <p style="text-align: center;">Gauge showing adequacy of the recorded weekly wash frequency</p>
+      </div>
+      
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+
+      <div class="col-md-12">
+        <div class="panel panel-primary">
+
+
+        <div id="bubble"></div>
+      </div>
+      </div>
+     
+    </div>
+    <p style="text-align: center;">Information on Bacteria Cultures per sample. Hover over each bubble to see details.</p>
+
+    <br>
+    <br>
+    <br>
+
+
+
+</body>
+<footer class="footer" style="text-align: center;">
+  <span class="bottom">&copy; Copyright XY Labortories | Roza Doe | Waheed Haidaryar</span>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="charts.js"></script>
+</div>
+</body>
+</body>
+
+</html>

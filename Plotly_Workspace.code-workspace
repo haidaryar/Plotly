@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../WorkEN/sweetDealsPlot"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../Desktop/Solved"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Plotly_Deployment"
+	}
+}
